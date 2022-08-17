@@ -263,7 +263,7 @@ a{ text-decoration: none;}
 .projects .section .image .onepage{margin-top: 0;}
 }
 @media (max-width: 768px) {
-    .projects .section .text .links{width: 40%;}
+    .projects .section .text .links{width: 50%;}
     .projects .section-responsive{height: 300px;}
     .projects .section .image .onepage{margin-top: 40px;}
     }
