@@ -73,3 +73,5 @@ let interval=setInterval(()=>{
         nameTag.innerHTML = valueJob;
         }
 },300)
+
+
