@@ -232,7 +232,7 @@ a{ text-decoration: none;}
     transform: translateY(0);
 }
     50%{
-    transform: translateY(-80%);
+    transform: translateY(calc(-100% + 350px));
 }
     100%{
     transform: translateY(0);
