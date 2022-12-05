@@ -94,8 +94,12 @@ a{ text-decoration: none;}
     animation: animation-01 .5s ease-in-out infinite;
 }
 @keyframes animation-01{
-    0%{opacity: 1;}
-    100%{opacity: 0;}
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 .home .container .text h5{
     background-color: var(--main-color);
@@ -119,8 +123,12 @@ a{ text-decoration: none;}
     animation: img2 2s ease-in-out;
 }
 @keyframes img2{
-    0%{transform: scale(0)}
-    100%{transform:scale(1);}
+    0%{
+        transform: scale(0)
+    }
+    100%{
+        transform:scale(1);
+    }
 }
 @media (max-width: 992px) {
 .home .container .text{width: 100%;}
@@ -220,9 +228,15 @@ a{ text-decoration: none;}
     margin-top: 40px;
 }
 @keyframes moveAnimation{
-    0%{transform: translateY(0);}
-    50%{transform: translateY(calc(-100% + 350px));}
-    100%{transform: translateY(0);}
+    0%{
+    transform: translateY(0);
+}
+    50%{
+    transform: translateY(calc(-100% + 350px));
+}
+    100%{
+    transform: translateY(0);
+}
 }
 .projects .section .text{
     width: 100%;
@@ -251,16 +265,17 @@ a{ text-decoration: none;}
     margin-right: 5px;
 }
 .projects .section .text .links{
-    width: 20%;
     display: flex;
     justify-content: space-between;
+}
+.projects .section .text .links a:first-of-type{
+    margin-right: 10px;
 }
 @media (max-width: 992px) {
 .projects  .section{width: 100%;}
 .projects .section .image .onepage{margin-top: 0;}
 }
 @media (max-width: 768px) {
-    .projects .section .text .links{width: 50%;}
     .projects .section-responsive{height: 300px;}
     .projects .section .image .onepage{margin-top: 40px;}
     }
